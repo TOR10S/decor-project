@@ -49,7 +49,8 @@ a {
     color: #2e2f42;
 }
 
-a:hover {
+a:hover,
+a:active {
     color: #61EAC1;
 }
 
@@ -95,8 +96,18 @@ span {
     display: none;
 }
 
+.nav-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .address-list{
     display: none;
+}
+
+.address-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .address-link {
@@ -138,8 +149,13 @@ span {
     display: flex;
     gap: 12px;
     flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
-
+    .address-item {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     
     .header-button {
         display: none;
@@ -165,3 +181,6 @@ span {
         margin-right: 120px;
     }
 }
+
+/* HERO */
+
