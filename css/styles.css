@@ -10,19 +10,23 @@
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .container {
         max-width: 768px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
     max-width: 1158px;
+    padding-left: 24px;
+    padding-right: 24px;
     }
 }
 
 /* RESETS */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -42,6 +46,11 @@ ul {
 
 a {
     text-decoration: none;
+    color: #2e2f42;
+}
+
+a:hover {
+    color: #61EAC1;
 }
 
 /* HEADER */
@@ -83,11 +92,23 @@ span {
 }
 
 .nav-list {
-    display: flex;
+    display: none;
 }
 
-.address-list {
-    display: flex;
+.address-list{
+    display: none;
+}
+
+.address-link {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.24;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-button {
@@ -107,8 +128,40 @@ span {
     .logo{
         margin-right: 120px;
     }
+    
+    .nav-list {
+    display: flex;
+    gap: 20px;
+    }
+    
+    .address-list {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    }
 
+    
     .header-button {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .header-button {
+        display: none;
+    }
+    
+    .nav-list {
+        display: flex;
+        gap: 20px;
+        }
+    
+    .address-list {
+        display: flex;
+        gap: 20px;
+        }
+    
+    .logo{
+        margin-right: 120px;
     }
 }
