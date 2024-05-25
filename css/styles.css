@@ -53,6 +53,7 @@ a {
 .header-wraper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -81,6 +82,14 @@ span {
     display: flex;
 }
 
+.nav-list {
+    display: flex;
+}
+
+.address-list {
+    display: flex;
+}
+
 .header-button {
     border: none;
     background-color: transparent;
@@ -91,5 +100,15 @@ span {
 }
 
 .header-svg {
-    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .logo{
+        margin-right: 120px;
+    }
+
+    .header-button {
+        display: none;
+    }
 }
