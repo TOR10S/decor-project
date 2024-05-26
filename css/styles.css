@@ -56,7 +56,8 @@ span {
 /* HEADER */
 
 .header {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #828282;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-wraper {
@@ -200,7 +201,7 @@ span {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    width: px;
+    max-width: 288px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
@@ -225,4 +226,25 @@ span {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .hero {
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img-tablet-1x.jpg);
+        max-width: 768px;
+        
+    }
+
+    .hero-header {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        max-width: 496px;
+        margin-top: 96px;
+    }
+
+    .hero-button {
+        margin-bottom: 36px;
+    }
 }
