@@ -185,7 +185,7 @@ span {
 /* HERO */
 
 .hero {
-    padding: 72px 0;
+    padding: 106px 0;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img-1x.jpg);
     background-repeat: no-repeat;
     max-width: 320px;
@@ -200,7 +200,7 @@ span {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 216px;
+    width: px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
