@@ -1,12 +1,12 @@
-function App() {
+function NavBar() {
 
   return (
     <header>
-    <svg width="" height="">
-        <use href=""/>
+    <svg width="12x" height="12px">
+        <use href="@/assets/icons.svg#custom-icon"/>
     </svg>
     </header>
   )
 }
 
-export default App
+export default NavBar
