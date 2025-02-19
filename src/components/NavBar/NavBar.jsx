@@ -1,3 +1,5 @@
+import css from "./NavBar.module.css"
+
 function NavBar() {
 
   return (
