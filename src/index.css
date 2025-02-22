@@ -3,6 +3,18 @@ html {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+}
 
 h1,
 h2,
@@ -53,6 +65,12 @@ img {
   margin-right: auto;
 }
 
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 section {
   padding-bottom: 32px;
   padding-top: 32px;
@@ -70,6 +88,10 @@ section {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .headerContainer {
+    
   }
 
   section {

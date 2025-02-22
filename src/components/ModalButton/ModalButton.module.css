@@ -1,0 +1,13 @@
+.modalButton {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .modalButton {
+        display: none;
+    }
+}

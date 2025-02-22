@@ -1,12 +1,12 @@
 
 import './App.css'
-import NavBar from './components/NavBar/NavBar'
+import HeaderSection from './sections/HeaderSection/HeaderSection'
 
 function App() {
 
   return (
     <>
-    <NavBar/>
+    <HeaderSection/>
     </>
   )
 }
