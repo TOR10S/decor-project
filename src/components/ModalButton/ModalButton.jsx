@@ -1,10 +1,11 @@
-import { Bars3Icon } from "@heroicons/react/20/solid"
 import css from "./ModalButton.module.css"
 
 function ModalButton() {
     return (
         <button className={css.modalButton}>
-            <Bars3Icon width={30} height={30} color="black" />
+        <svg width={30} height={30}>
+        <use href={`/sprite.svg#icon-heroicons-solid_menu`} />
+      </svg>
         </button>
 
     )
