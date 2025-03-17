@@ -4,9 +4,10 @@ function HeroSection() {
     return (
         <section className={css.heroSection}>
             <div className="container">
-            <h1 className={css.h1}>
+            <h1 className={css.h1Hero}>
                 Зробимо ваше свято шото там
             </h1>
+            
             </div>
         </section>
 

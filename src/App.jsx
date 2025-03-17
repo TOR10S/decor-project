@@ -1,6 +1,7 @@
 import HeroSection from './sections/HeroSection/HeroSection'
 import './App.css'
 import HeaderSection from './sections/HeaderSection/HeaderSection'
+import ChoicesSection from './sections/ChoiceSection/ChoiceSection'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <HeaderSection/>
     <main>
       <HeroSection/>
+      <ChoicesSection/>
     </main>
     </>
   )
