@@ -5,7 +5,7 @@ function ChoiceList() {
     <ul className={css.choiceList}>
         <li className={css.choiceItem}>
             <a href="">
-                <div>
+                <div className={css.choiceItemWraper}>
                 <h3 className={css.h3Choice}>1</h3>
                 </div>
                 
@@ -13,7 +13,7 @@ function ChoiceList() {
         </li>
         <li className={css.choiceItem}>
             <a href="">
-                <div>
+                <div className={css.choiceItemWraper}>
                 <h3 className={css.h3Choice}>2</h3>
                 </div>
                 
@@ -21,7 +21,7 @@ function ChoiceList() {
         </li>
         <li className={css.choiceItem}>
             <a href="">
-                <div>
+                <div className={css.choiceItemWraper}>
                 <h3 className={css.h3Choice}>3</h3>
                 </div>
             </a>

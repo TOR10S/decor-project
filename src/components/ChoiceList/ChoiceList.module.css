@@ -1,22 +1,45 @@
 .choiceItemWraper {
- 
+ background-color: aquamarine;
+ padding: 121px 24px;
 }
 
 .choiceList {
  display: flex;
- gap: 20px;
+ gap: 14px;
  flex-wrap: wrap;
 }
 
 .choiceItem {
+    overflow: hidden;
     width: 100%;
+    border-radius: 16px;
 }
 
 .h3Choice {
+    text-align: center;
     font-size: 16px;
     letter-spacing: 0.01em;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px)  {
+    .choiceItem {
+        width: calc(100%/3 - 18px);
+    }
+    .choiceList {
+        gap: 18px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .choiceList {
+        gap: 21px;
+    }
+
+    .choiceItem {
+        width: calc(100%/3 - 21px);
+    }
 }

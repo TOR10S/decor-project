@@ -2,6 +2,7 @@ import HeroSection from './sections/HeroSection/HeroSection'
 import './App.css'
 import HeaderSection from './sections/HeaderSection/HeaderSection'
 import ChoicesSection from './sections/ChoiceSection/ChoiceSection'
+import LibraryItem from './components/LibraryItem/LibraryItem'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <HeroSection/>
       <ChoicesSection/>
     </main>
+    <LibraryItem/>
     </>
   )
 }
