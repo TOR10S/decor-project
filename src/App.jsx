@@ -1,20 +1,18 @@
-import HeroSection from './sections/HeroSection/HeroSection'
+import { Routes, Route } from "react-router-dom";
 import './App.css'
-import HeaderSection from './sections/HeaderSection/HeaderSection'
-import ChoicesSection from './sections/ChoiceSection/ChoiceSection'
-import LibraryItem from './components/LibraryItem/LibraryItem'
-
+import MainPage from "./pages/MainPage/MainPage";
+import HeaderSection from "./sections/HeaderSection/HeaderSection";
+import LibraryPage from "./pages/LibraryPage/LibraryPage";
 function App() {
 
   return (
-    <>
-    <HeaderSection/>
-    <main>
-      <HeroSection/>
-      <ChoicesSection/>
-    </main>
-    <LibraryItem/>
-    </>
+    <div>
+      <HeaderSection/>
+      <Routes>
+        <Route path="/" element={<MainPage/>} />
+        <Route path="/gallery" element={<LibraryPage/>} />
+      </Routes>
+    </div>
   )
 }
 

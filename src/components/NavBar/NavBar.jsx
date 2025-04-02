@@ -1,4 +1,10 @@
 import css from "./NavBar.module.css"
+import { NavLink } from 'react-router-dom';
+import clsx from 'clsx';
+
+const buildLinkClass = ({ isActive }) => {
+  return clsx(css.navigationOption, isActive && css.active);
+};
 
 
 function NavBar() {
@@ -6,14 +12,11 @@ function NavBar() {
   return (
         <nav className={css.navigation}>
           <ul className={css.navigationList}>
-            <li className={css.navigationOption}>
-              <a href="">Головна</a>
+            <li>
+              <NavLink to="/" className={buildLinkClass}>Головна</NavLink>
             </li>
-            <li className={css.navigationOption}>
-              <a href="">Галерея</a>
-            </li>
-            <li className={css.navigationOption}>
-              <a href="">Відгуки</a>
+            <li>
+              <NavLink to="/gallery" className={buildLinkClass}>Галерея</NavLink>
             </li>
           </ul>
         </nav>

@@ -13,6 +13,10 @@
     font-size: 20px;
 }
 
+.active {
+    color: #3db397;
+}
+
 @media screen and (min-width: 768px) {
     .navigation{
         display: flex;
