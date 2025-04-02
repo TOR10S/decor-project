@@ -6,7 +6,7 @@ function ChoicesSection() {
         <section>
             <div className="container">
             <h2 className={css.h2Choice}>
-                подивись яку красу ми робили
+                Подивись яку красу ми робили
             </h2>
             <ChoiceList/>
             </div>

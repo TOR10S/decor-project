@@ -1,0 +1,62 @@
+.h2AboutMe {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+}
+
+.visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.aboutMeWrapper {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutMeText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .aboutMeWrapper {
+        flex-direction: row;
+    }
+
+    .aboutMeText {
+        font-size: 20px;
+    }
+
+    .h2AboutMe {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .aboutMeWrapper {
+        flex-direction: row;
+    }
+
+    .aboutMeText {
+        font-size: 24px;
+    }
+
+    .h2AboutMe {
+        font-size: 36px;
+    }
+}

@@ -1,16 +1,15 @@
 import HeroSection from '../../sections/HeroSection/HeroSection'
-import HeaderSection from '../../sections/HeaderSection/HeaderSection'
 import ChoicesSection from '../../sections/ChoiceSection/ChoiceSection'
+import AboutMeSection from '../../sections/AboutMeSection/AboutMeSection'
 
 function MainPage() {
 
   return (
-    <>
     <main>
       <HeroSection/>
+      <AboutMeSection/>
       <ChoicesSection/>
     </main>
-    </>
   )
 }
 

@@ -7,7 +7,7 @@
 .h1Hero {
     color: whitesmoke;
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     letter-spacing: -0.01em;
     max-width: 220px;
     margin-left: auto;
@@ -20,7 +20,7 @@
     }
 
     .h1Hero {
-        font-size: 32px;
+        font-size: 56px;
         max-width: 380px;
     }
 }
@@ -31,8 +31,7 @@
     }
 
     .h1Hero {
-        font-size: 36px;
+        font-size: 56px;
         max-width: 468px;
     }
 }
-

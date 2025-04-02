@@ -1,8 +1,8 @@
 function LibraryPage() {
     return (
-        <section>
-            
-        </section>
+        <main>
+
+        </main>
     )
 }
 
