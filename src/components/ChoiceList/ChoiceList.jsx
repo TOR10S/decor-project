@@ -5,8 +5,8 @@ function ChoiceList() {
     <ul className={css.choiceList}>
         <li className={css.choiceItem}>
             <a href="">
-                <div className={css.choiceItemWraper}>
-                <h3 className={css.h3Choice}>1</h3>
+                <div className={css.sphere}>
+                <h3 className={css.h3Choice}>дивокуля</h3>
                 </div>
                 
             </a>
@@ -14,7 +14,7 @@ function ChoiceList() {
         <li className={css.choiceItem}>
             <a href="">
                 <div className={css.choiceItemWraper}>
-                <h3 className={css.h3Choice}>2</h3>
+                <h3 className={css.h3Choice}>гендер паті</h3>
                 </div>
                 
             </a>
@@ -22,7 +22,7 @@ function ChoiceList() {
         <li className={css.choiceItem}>
             <a href="">
                 <div className={css.choiceItemWraper}>
-                <h3 className={css.h3Choice}>3</h3>
+                <h3 className={css.h3Choice}>фотозони</h3>
                 </div>
             </a>
         </li>

@@ -5,7 +5,7 @@ function HeroSection() {
         <section className={css.heroSection}>
             <div className="container">
             <h1 className={css.h1Hero}>
-                Зробимо ваше свято шото там
+            Створюємо неповторні свята та яскраві спогади на все життя
             </h1>
             
             </div>

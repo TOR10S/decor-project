@@ -20,6 +20,15 @@
     overflow: hidden;
 }
 
+.aboutMeImage{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
 .aboutMeWrapper {
     align-items: center;
     justify-content: space-between;
@@ -38,6 +47,10 @@
         flex-direction: row;
     }
 
+    .aboutMeImage {
+        max-width: 50%;
+    }
+
     .aboutMeText {
         font-size: 20px;
     }
@@ -54,6 +67,10 @@
 
     .aboutMeText {
         font-size: 24px;
+    }
+
+    .aboutMeImage {
+        max-width: 33%;
     }
 
     .h2AboutMe {
