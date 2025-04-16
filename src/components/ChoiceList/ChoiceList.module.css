@@ -11,6 +11,33 @@
     background-size: cover;
 }
 
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) { 
+    .sphere {
+        background-image:  linear-gradient(rgba(20, 20, 23, 0.333), rgba(0, 0, 0, 0)),  url(../../../public/images/choice/sphere-2x.jpg); 
+    }
+}
+
+.gender {
+    background-image:  linear-gradient(rgba(20, 20, 23, 0.333), rgba(0, 0, 0, 0)),  url(../../../public/images/choice/gender-1x.jpg); 
+    padding: 30px 24px 211px 24px;
+    background-repeat: no-repeat;
+    background-position: 1px;
+    background-size: cover;
+}
+
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) { 
+    .gender {
+        background-image:  linear-gradient(rgba(20, 20, 23, 0.333), rgba(0, 0, 0, 0)),  url(../../../public/images/choice/gender-2x.jpg); 
+    }
+}
+
+.photoZone {
+    background-image:  linear-gradient(rgba(20, 20, 23, 0.333), rgba(0, 0, 0, 0)),  url(../../../public/images/choice/photo-zone-1x.jpg); 
+    padding: 30px 24px 211px 24px;
+    background-repeat: no-repeat;
+    background-position: 1px;
+    background-size: cover;
+}
 
 .choiceList {
  display: flex;

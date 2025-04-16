@@ -13,7 +13,7 @@ function ChoiceList() {
         </li>
         <li className={css.choiceItem}>
             <a href="">
-                <div className={css.choiceItemWraper}>
+                <div className={css.gender}>
                 <h3 className={css.h3Choice}>гендер паті</h3>
                 </div>
                 
@@ -21,7 +21,7 @@ function ChoiceList() {
         </li>
         <li className={css.choiceItem}>
             <a href="">
-                <div className={css.choiceItemWraper}>
+                <div className={css.photoZone}>
                 <h3 className={css.h3Choice}>фотозони</h3>
                 </div>
             </a>
