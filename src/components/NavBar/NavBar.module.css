@@ -11,6 +11,13 @@
 
 .navigationOption {
     font-size: 20px;
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-property: color;
+}
+
+.navigationOption:hover {
+    color: #6fbdab;
 }
 
 .active {
@@ -22,3 +29,4 @@
         display: flex;
     }
 }
+

@@ -31,26 +31,3 @@ function ChoiceList() {
 }
 
 export default ChoiceList
-/*
-.choiceItemWraper {
-
-}
-
-.choiceList {
- display: flex;
- gap: 20px;
- flex-wrap: wrap;
-}
-
-.choiceItem {
-
-}
-
-.h3Choice {
-    font-size: 16px;
-    letter-spacing: 0.01em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}*/
